@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Key Test</title>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>John Rumler: About</title>
 </head>
 
 <body>
-    <py-config type="toml">
-        [[fetch]]
-        files = ["./Scripts/hello.py"]
-    </py-config>
-    <py-script>
-        from hello import hello_world
+  <nav id="navbar">
+    <a href="index.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-        pyscript.write(hello_world())
-    </py-script>
+  <main>
+    <article>
+      <h1>About me!</h1>
+      <img src="Images/me.jpg" id="portrait" />
+      <p>
+        Hi there, and thank you for visiting my site! My name is John Rumler, and I'm a 4th year computer science student at
+        Michigan State University studying Computer Science through the College of Engineering. My passions for work lie
+        in Software Design and the Information Technology field, while in my free time I enjoy game design as a hobby.
+        On my own, I learned the lua scripting language in order to make modifications for games I enjoy, and in school
+        I've had a varied curriculum learning Python, C++, C, Arm Assembly, HTML/CSS, JavaScript, PHP, and Java -
+        finding most enjoyment in object-oriented programming. I'm actively looking for jobs in software, and hope to gain
+        experience in the field after my graduation in May. My hobbies outside of programming are playing tennis, swimming,
+        hiking, camping, and fishing.
+      </p>
+      <h3>Relevant experience</h3>
+      <ul>
+        <li>MSU College of Communication Arts and Sciences - Student IT Assistant
+          <ul>
+            <li>As a student IT worker, my responsibilities have included assisting our end users with both software
+              and hardware problems in person and remotely, imaging, deploying, and administering machines using both
+              Microsoft Endpoint Configuration Manager and Jamf Apple Device Management, helping to manage the helpdesk
+              inventory and assist with technology acquisition, and planning and implementing user workstations.</li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+  </main>
+
 </body>
-
 </html>
