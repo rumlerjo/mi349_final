@@ -69,13 +69,13 @@ main {
   margin-top: 1%;
 }
 
-images {
+#contacts {
   padding: 4%;
 }
 
-images a img {
+#contacts a img {
   height: 20%;
   width: 20%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
